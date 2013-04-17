@@ -1,0 +1,7 @@
+name: MajskyLib
+main: me.majsky.lib.MajskyLib
+version: 1.0.0
+author: majsky
+description: >
+             Poskytuje mi niekoré funkcie pri viacerých pluginoch /aka CompatibilityLayer/
+
