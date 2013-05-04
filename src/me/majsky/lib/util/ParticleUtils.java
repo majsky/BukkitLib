@@ -1,4 +1,4 @@
-package me.majsky.lib;
+package me.majsky.lib.util;
 
 import org.bukkit.Effect;
 import org.bukkit.Location;
@@ -12,7 +12,7 @@ public class ParticleUtils {
     }
     
     public static void createParticlesWithSound(World world, Location location, Effect effect, int data, Sound sound, float pitch, float volume){
-        world.playEffect(location, effect, data, 15);
+        world.playEffect(location, effect, data, 30);
         world.playSound(location, sound, volume, pitch);
     }
 }
